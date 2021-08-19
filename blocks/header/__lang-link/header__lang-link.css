@@ -1,0 +1,10 @@
+.header__lang-link {
+  margin-right: 18px;
+  color: #ffffff;
+}
+
+/* !НЕ работает отступ! */
+.header__lang-link:nth-last-of-type() {
+  margin-right: 0;
+  text-decoration: none;
+}
