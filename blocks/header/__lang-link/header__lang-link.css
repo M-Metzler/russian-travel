@@ -1,6 +1,9 @@
 .header__lang-link {
   margin-right: 18px;
   color: #ffffff;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 /* !НЕ работает отступ! */
