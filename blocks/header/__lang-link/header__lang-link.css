@@ -7,7 +7,7 @@
 }
 
 /* !НЕ работает отступ! */
-.header__lang-link:nth-last-of-type() {
+.header__lang-link:last-of-type() {
   margin-right: 0;
   text-decoration: none;
 }
