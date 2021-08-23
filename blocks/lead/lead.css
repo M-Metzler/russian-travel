@@ -1,6 +1,4 @@
 .lead {
-  min-height: 1005px;
-  width: 984px;
-  margin: 0 auto;
-  margin-bottom: 92px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  max-width: 984px;
 }

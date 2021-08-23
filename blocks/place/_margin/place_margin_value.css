@@ -1,0 +1,8 @@
+.place_margin_value {
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.place_margin_value:last-of-type {
+  margin-bottom: 92px;
+}

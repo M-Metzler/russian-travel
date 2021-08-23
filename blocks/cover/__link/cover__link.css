@@ -2,10 +2,8 @@
   background-image: url(../../../images/cover-trains.jpg);
   display: block;
   background-size: cover;
-  padding: 245px 312px;
   text-decoration: none;
   color: #ffffff;
-  margin: 0 48px;
   position: relative;
   z-index: 0;
 }
