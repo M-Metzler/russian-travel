@@ -19,3 +19,12 @@
     padding-bottom: 115px;
   }
 }
+
+@media (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 33px;
+    max-width: 288px;
+  }
+}

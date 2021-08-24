@@ -28,6 +28,8 @@
 
 @media (max-width: 320px) {
   .place_margin_value {
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 50px;
   }
 
