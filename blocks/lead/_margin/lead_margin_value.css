@@ -1,4 +1,16 @@
 .lead_margin_value {
-margin: 0 auto;
-margin-bottom: 92px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+
+@media (max-width: 768px) {
+  .lead_margin_value {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead_margin_value {
+    margin-bottom: 64px;
+  }
 }

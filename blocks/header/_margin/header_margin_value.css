@@ -4,3 +4,14 @@
   margin-bottom: 56px;
 }
 
+@media (max-width: 1024px) {
+  .header_margin_value {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_margin_value {
+    margin-top: 16px;
+  }
+}

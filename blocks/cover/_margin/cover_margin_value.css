@@ -2,3 +2,16 @@
   margin: 0 48px;
   margin-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .cover_margin_value {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover_margin_value {
+    margin-bottom: 88px;
+  }
+}

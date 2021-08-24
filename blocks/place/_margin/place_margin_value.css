@@ -6,3 +6,32 @@
 .place_margin_value:last-of-type {
   margin-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .place_margin_value {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place_margin_value {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 73px;
+  }
+
+  .place_margin_value:last-of-type {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place_margin_value {
+    margin-bottom: 50px;
+  }
+
+  .place_margin_value:last-of-type {
+    margin-bottom: 66px;
+  }
+}

@@ -2,3 +2,9 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   max-width: 690px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+  }
+}
