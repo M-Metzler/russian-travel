@@ -4,12 +4,32 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 890px) {
+  .place__title {
+    max-width: 390px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 829px) {
+  .place__title {
+    max-width: 365px;
+  }
 }
 
 @media (max-width: 768px) {
   .place__title {
-    font-size: 42px;
-    line-height: 46px;
+    max-width: 340px;
   }
 }
 

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 725px) {
+  .place__paragraphs {
+    max-width: 725px;
+  }
+}

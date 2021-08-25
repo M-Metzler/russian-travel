@@ -3,6 +3,12 @@
   margin-bottom: 24px;
 }
 
+@media (max-width: 670px) {
+  .footer_margin_value {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer_margin_value {
     margin-left: 16px;

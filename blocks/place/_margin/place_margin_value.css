@@ -14,11 +14,25 @@
   }
 }
 
+@media (max-width: 890px) {
+  .place_margin_value {
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+}
+
 @media (max-width: 768px) {
   .place_margin_value {
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 73px;
+  }
+
+  @media (max-width: 725px) {
+    .place_margin_value {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
   }
 
   .place_margin_value:last-of-type {

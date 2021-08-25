@@ -1,3 +1,35 @@
 .place__image {
-  max-width: 100%;
+  width: 100%;
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 890px) {
+  .place__image {
+    max-width: 390px;
+  }
+}
+
+@media (max-width: 829px) {
+  .place__image {
+    max-width: 365px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 725px) {
+  .place__image {
+    max-width: 725px;
+    width: 100%;
+  }
 }

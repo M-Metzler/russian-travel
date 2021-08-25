@@ -14,17 +14,34 @@
   }
 }
 
+@media (max-width: 890px) {
+  .cover__subtitle {
+    padding-bottom: 155px;
+  }
+}
+
 @media (max-width: 768px) {
   .cover__subtitle {
     padding-bottom: 115px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 670px) {
   .cover__subtitle {
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__subtitle {
+    padding-bottom: 55px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__subtitle {
     padding-bottom: 33px;
-    max-width: 288px;
   }
 }
