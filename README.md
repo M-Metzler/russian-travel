@@ -13,5 +13,5 @@
 **3**. Использована модель верстки Flex layout
 **4**. В проекте применяется технология построения сетки с помощью Grid layout
 
-[Ссылка на проект](https://www.yandex.ru)
+[Ссылка на проект](https://m-metzler.github.io/russian-travel/index.html)
 
