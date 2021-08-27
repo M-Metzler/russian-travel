@@ -1,16 +1,16 @@
-.lead_margin_value {
+.lead_box_position {
   margin: 0 auto;
   margin-bottom: 92px;
 }
 
 @media (max-width: 768px) {
-  .lead_margin_value {
+  .lead_box_position {
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 320px) {
-  .lead_margin_value {
+  .lead_box_position {
     margin-bottom: 64px;
   }
 }

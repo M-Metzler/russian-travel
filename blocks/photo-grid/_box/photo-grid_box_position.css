@@ -1,17 +1,17 @@
-.photo-grid_margin_value {
+.photo-grid_box_position {
   margin: 0 48px;
   margin-bottom: 92px;
 }
 
 @media (max-width: 768px) {
-  .photo-grid_margin_value {
+  .photo-grid_box_position {
     margin: 0 24px;
     margin-bottom: 88px;
   }
 }
 
-@media (max-width: 320px) {
-  .photo-grid_margin_value {
+@media (max-width: 335px) {
+  .photo-grid_box_position {
     margin: 0 16px;
     margin-bottom: 64px;
   }

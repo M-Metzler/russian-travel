@@ -8,26 +8,29 @@
   <link rel="stylesheet" href="./pages/index.css" />
 </head>
 
-<body>
+<body class="root">
   <div class="page">
-    <header class="header header_margin_value">
+    <header class="header header_box_position">
       <img class="header__logo" src="./images/header-logo.svg" alt="логотип Россия" />
-      <nav class="header__lang">
-        <a class="header__lang-link header__lang-link_underlined" target="_blank" rel="noopener" href="#">Ru</a>
-        <a class="header__lang-link" target="_blank" rel="noopener" href="#">En</a>
-      </nav>
+      <ul class="header__lang-links">
+        <li class="header__lang"><a class="header__lang-link header__lang-link_selected" target="_blank" rel="noopener"
+            href="#">Ru</a></li>
+        <li class="header__lang"><a class="header__lang-link" target="_blank" rel="noopener" href="#">En</a></li>
+      </ul>
     </header>
 
     <main class="content">
-      <section class="lead lead_margin_value">
+      <section class="lead lead_box_position">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
         </p>
-        <img class="lead__image" src="./images/lead-polka.jpg" alt="Сон в поезде" />
-        <span class="lead__caption">ваша полка - верхняя</span>
+        <figure class="lead__figure">
+          <img class="lead__image" src="./images/lead-polka.jpg" alt="Сон в поезде" />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
-      <section class="intro intro_margin_value">
+      <section class="intro intro_box_position">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36%
           планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом
@@ -38,16 +41,16 @@
           километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего
           отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16 </li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__list-digit">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-digit">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-digit">16</span></li>
+          <li>Природных заповедников <span class="intro__list-digit">105</span></li>
+          <li>Аэропортов <span class="intro__list-digit">241</span></li>
         </ul>
 
       </section>
       <section class="photo">
-        <ul class="photo-grid photo-grid_margin_value">
+        <ul class="photo-grid photo-grid_box_position">
           <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="вид из окна поезда"></li>
           <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="гора Уллу Тау"></li>
           <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="собака на стоге сена"></li>
@@ -65,10 +68,10 @@
       </section>
 
       <section class="places">
-        <div class="place place_margin_value">
+        <article class="place place_box_position">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <span class="place__url-heading">URL</span>
+            <span class="place__url-heading">url</span>
             <a class="place__link" target="_blank" rel="noopener" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -84,8 +87,8 @@
               и&nbsp;запах стального,
               прохладного моря.</p>
           </div>
-        </div>
-        <div class="place place_margin_value">
+        </article>
+        <article class="place place_box_position">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <span class="place__url-heading">URL</span>
@@ -103,8 +106,8 @@
               сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша мечта увидеть
               северное сияние начинает сбываться с&nbsp;билетом в&nbsp;Мурманск.</p>
           </div>
-        </div>
-        <div class="place place_margin_value">
+        </article>
+        <article class="place place_box_position">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <span class="place__url-heading">URL</span>
@@ -121,8 +124,8 @@
               летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели
               Алтайского края.</p>
           </div>
-        </div>
-        <div class="place place_margin_value">
+        </article>
+        <article class="place place_box_position">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <span class="place__url-heading">URL</span>
@@ -137,8 +140,8 @@
               старается развить как можно б&oacute;льшую скорость на&nbsp;льду. В&nbsp;марте 2019 года на&nbsp;фестивале
               &laquo;Байкальская миля&raquo; был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
           </div>
-        </div>
-        <div class="place place_margin_value">
+        </article>
+        <article class="place place_box_position">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <span class="place__url-heading">URL</span>
@@ -154,10 +157,10 @@
               не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в&nbsp;паре метров от&nbsp;земли помечены
               медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
 
       </section>
-      <section class="cover cover_margin_value">
+      <section class="cover cover_box_position">
         <a class="cover__link" target="_blank" rel="noopener" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
@@ -165,15 +168,22 @@
         </a>
       </section>
     </main>
-    <footer class="footer footer_margin_value">
-      <nav class="footer__links">
-        <a target="_blank" rel="noopener" class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a target="_blank" rel="noopener" class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a target="_blank" rel="noopener" class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a target="_blank" rel="noopener" class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a target="_blank" rel="noopener" class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+    <footer class="footer footer_box_position">
+      <nav class="footer__info">
+        <ul class="footer__links">
+          <li class="footer__link-item"><a target="_blank" rel="noopener" class="footer__link"
+              href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__link-item"><a target="_blank" rel="noopener" class="footer__link"
+              href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__link-item"><a target="_blank" rel="noopener" class="footer__link"
+              href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__link-item"><a target="_blank" rel="noopener" class="footer__link"
+              href="https://calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__link-item"><a target="_blank" rel="noopener" class="footer__link"
+              href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
       </nav>
-      <p class="footer__author">© 2021. Михаил Мецлер</p>
+      <p class="footer__author">&copy; 2021. Михаил Мецлер</p>
     </footer>
   </div>
 </body>

@@ -1,23 +1,23 @@
-.cover_margin_value {
+.cover_box_position {
   margin: 0 48px;
   margin-bottom: 92px;
 }
 
 @media (max-width: 1024px) {
-  .cover_margin_value {
+  .cover_box_position {
     margin-left: 0;
     margin-right: 0;
   }
 }
 
 @media (max-width: 768px) {
-  .cover_margin_value {
+  .cover_box_position {
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 320px) {
-  .cover_margin_value {
+  .cover_box_position {
     margin-bottom: 64px;
   }
 }

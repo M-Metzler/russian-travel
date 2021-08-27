@@ -1,16 +1,16 @@
-.intro_margin_value {
+.intro_box_position {
   margin-left: 148px;
   margin-bottom: 92px;
 }
 
 @media (max-width: 1024px) {
-  .intro_margin_value {
+  .intro_box_position {
     margin-left: 48px;
   }
 }
 
 @media (max-width: 768px) {
-  .intro_margin_value {
+  .intro_box_position {
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 88px;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 320px) {
-  .intro_margin_value {
+  .intro_box_position {
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 64px;

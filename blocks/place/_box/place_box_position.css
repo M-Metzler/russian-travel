@@ -1,0 +1,37 @@
+.place_box_position {
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.place_box_position:last-of-type {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+  .place_box_position {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (max-width: 895px) {
+  .place_box_position {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 73px;
+  }
+  .place_box_position:last-of-type {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 340px) {
+  .place_box_position {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .place_box_position:last-of-type {
+    margin-bottom: 66px;
+  }
+}

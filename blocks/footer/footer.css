@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
 }
 
 @media (max-width: 1024px) {
@@ -25,4 +24,3 @@
     align-items: flex-start;
   }
 }
-
